@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: h Administrator, h, LIC=CRMW3-APCYY-YDAK5-GA7VX-W0ZQG-DQN7W
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+F:\HSW_Work\code\FireCar_blister_Control\MDK-ARM\FireCar_blister_Control.uvprojx
+Project File Date:  07/15/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'FireCar_blister_Control'
+compiling Usart2.c...
+compiling Motor.c...
+compiling main.c...
+../Core/Src/main.c(83): warning:  #177-D: variable "send_buff" was declared but never referenced
+     uint8_t send_buff[5] = {"123"};
+../Core/Src/main.c: 1 warning, 0 errors
+compiling stm32g0xx_it.c...
+linking...
+Program Size: Code=10400 RO-data=372 RW-data=32 ZI-data=2160  
+FromELF: creating hex file...
+"FireCar_blister_Control\FireCar_blister_Control.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32G0xx_DFP.2.1.0.pack
+                Keil::STM32G0xx_DFP@2.1.0
+                STMicroelectronics STM32G0 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_FireCar_blister_Control
+  C:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
